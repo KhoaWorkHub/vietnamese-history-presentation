@@ -1,46 +1,132 @@
-# Getting Started with Create React App
+# Vietnamese History Presentation 🇻🇳
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, interactive presentation about Vietnamese Communist Party history covering Sessions 13 & 14, featuring smooth animations and Vietnamese cultural design elements.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- ✨ Beautiful Vietnamese flag-inspired design with red and yellow color scheme
+- 🎬 Smooth slide transitions with Framer Motion animations
+- 📱 Responsive design that works on all devices
+- ⌨️ Keyboard navigation (Arrow keys, Spacebar)
+- 🎨 Floating particles and background animations
+- 📊 Progress bar showing presentation progress
+- 🖱️ Click navigation with previous/next buttons
 
-### `npm start`
+## Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Session 13: Đại hội đại biểu lần thứ II và Chính cương của Đảng (2/1951)
+- Bối cảnh lịch sử
+- Đại hội II
+- Chính cương Đảng Lao động Việt Nam
+- Tính chất xã hội và nhiệm vụ cách mạng
+- Kế hoạch Navarre
+- Tiến công chiến lược Đông Xuân 1953-1954
+- Chiến thắng Điện Biên Phủ
+- Hiệp định Geneve
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Session 14: Lãnh đạo hai cuộc kháng chiến chống ngoại xâm (1945-1975)
+- Tổng quan chương 2
+- Ý nghĩa lịch sử của thắng lợi
+- Bảo vệ thành quả Cách mạng tháng Tám
+- Tầm vóc thời đại và sức mạnh tinh thần
+- Điện Biên Phủ - Biểu tượng giải phóng dân tộc
+- Kinh nghiệm của Đảng về lãnh đạo kháng chiến
+- Đường lối kháng chiến cơ bản
 
-### `npm test`
+## Technology Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React 19** with TypeScript
+- **Framer Motion** for animations
+- **Lucide React** for icons
+- **CSS3** with custom Vietnamese-themed styling
+- **Vercel** for deployment
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Node.js 16+ 
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd vietnamese-history-presentation
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deployment to Vercel
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Option 1: Automatic Deployment
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically deploy on every push to main branch
 
-## Learn More
+### Option 2: Manual Deployment
+1. Install Vercel CLI:
+```bash
+npm install -g vercel
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Build and deploy:
+```bash
+npm run build
+vercel --prod
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Or use the shortcut:
+```bash
+npm run deploy
+```
+
+## Navigation Controls
+
+- **Arrow Right** or **Spacebar**: Next slide
+- **Arrow Left**: Previous slide
+- **Mouse**: Click navigation buttons
+- **Progress Bar**: Shows current position
+
+## Project Structure
+
+```
+src/
+├── App.tsx                 # Main application component
+├── App.css                 # Main styles with Vietnamese theming
+├── slides/
+│   ├── IntroSlide.tsx      # Introduction slide
+│   ├── Session13Slides.tsx # Session 13 content slides
+│   ├── Session14Slides.tsx # Session 14 content slides
+│   └── ThankYouSlide.tsx   # Thank you slide
+└── ...
+```
+
+## Design Philosophy
+
+The presentation embraces Vietnamese cultural elements:
+- **Color Scheme**: Red (#da251d) and Yellow (#ffeb3b) from the Vietnamese flag
+- **Typography**: Elegant fonts with Vietnamese readability
+- **Visual Elements**: Flag icons, cultural symbols, and patriotic imagery
+- **Animation**: Smooth, respectful transitions that enhance the historical content
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is created for educational purposes about Vietnamese history.
+
+---
+
+**"Độc lập - Tự do - Hạnh phúc"** 🇻🇳
