@@ -158,9 +158,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-2">Chính trị</h4>
               <ul className="text-left space-y-1">
-                <li>• Củng cố chính quyền nhân dân</li>
-                <li>• Hoàn thiện bộ máy quản lý nhà nước</li>
-                <li>• Tăng cường đoàn kết dân tộc</li>
+                <li>Củng cố chính quyền nhân dân</li>
+                <li>Hoàn thiện bộ máy quản lý nhà nước</li>
+                <li>Tăng cường đoàn kết dân tộc</li>
               </ul>
             </motion.div>
             
@@ -172,9 +172,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-2">Kinh tế</h4>
               <ul className="text-left space-y-1">
-                <li>• Khôi phục sản xuất</li>
-                <li>• Cải cách ruộng đất</li>
-                <li>• Phát triển công nghiệp</li>
+                <li>Khôi phục sản xuất</li>
+                <li>Cải cách ruộng đất</li>
+                <li>Phát triển công nghiệp</li>
               </ul>
             </motion.div>
             
@@ -186,9 +186,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-2">Văn hóa - Xã hội</h4>
               <ul className="text-left space-y-1">
-                <li>• Xây dựng nền giáo dục mới</li>
-                <li>• Phát triển y tế nhân dân</li>
-                <li>• Bảo tồn văn hóa dân tộc</li>
+                <li>Xây dựng nền giáo dục mới</li>
+                <li>Phát triển y tế nhân dân</li>
+                <li>Bảo tồn văn hóa dân tộc</li>
               </ul>
             </motion.div>
           </div>
@@ -274,9 +274,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-4">Ảnh hưởng trực tiếp</h4>
               <ul className="space-y-2">
-                <li>• Cổ vũ các dân tộc thuộc địa đấu tranh</li>
-                <li>• Chứng minh khả năng chiến thắng của dân tộc bị áp bức</li>
-                <li>• Làm lung lay niềm tin vào sức mạnh của chủ nghĩa thực dân</li>
+                <li>Cổ vũ các dân tộc thuộc địa đấu tranh</li>
+                <li>Chứng minh khả năng chiến thắng của dân tộc bị áp bức</li>
+                <li>Làm lung lay niềm tin vào sức mạnh của chủ nghĩa thực dân</li>
               </ul>
               
               <div className="mt-4 bg-green-50 p-3 rounded">
@@ -294,9 +294,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-4">Giá trị lịch sử</h4>
               <ul className="space-y-2">
-                <li>• <span className="highlight">Bước ngoặt trong lịch sử phi thực dân hóa</span></li>
-                <li>• Khởi đầu cho sự sụp đổ của hệ thống thuộc địa</li>
-                <li>• Tạo tiền lệ cho các cuộc đấu tranh giải phóng dân tộc</li>
+                <li><span className="highlight">Bước ngoặt trong lịch sử phi thực dân hóa</span></li>
+                <li>Khởi đầu cho sự sụp đổ của hệ thống thuộc địa</li>
+                <li>Tạo tiền lệ cho các cuộc đấu tranh giải phóng dân tộc</li>
               </ul>
               
               <div className="mt-4 timeline-item">
@@ -404,18 +404,18 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
                 <h4 className="font-bold text-red-600 mb-3">Kháng chiến toàn dân</h4>
                 <p className="highlight">Tự lực cánh sinh</p>
                 <ul className="mt-2 space-y-1">
-                  <li>• Toàn thể nhân dân tham gia</li>
-                  <li>• Dựa vào sức mạnh nội tại</li>
-                  <li>• Phát huy tinh thần tự lực tự cường</li>
+                  <li>Toàn thể nhân dân tham gia</li>
+                  <li>Dựa vào sức mạnh nội tại</li>
+                  <li>Phát huy tinh thần tự lực tự cường</li>
                 </ul>
               </div>
               
               <div className="card">
                 <h4 className="font-bold text-red-600 mb-3">Kháng chiến toàn diện</h4>
                 <ul className="space-y-1">
-                  <li>• Chính trị, quân sự, ngoại giao</li>
-                  <li>• Kinh tế, văn hóa, xã hội</li>
-                  <li>• Kết hợp tất cả mặt trận</li>
+                  <li>Chính trị, quân sự, ngoại giao</li>
+                  <li>Kinh tế, văn hóa, xã hội</li>
+                  <li>Kết hợp tất cả mặt trận</li>
                 </ul>
               </div>
             </motion.div>
@@ -429,10 +429,10 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
               <div className="card">
                 <h4 className="font-bold text-red-600 mb-3">Kháng chiến trường kỳ</h4>
                 <ul className="space-y-1">
-                  <li>• Chuẩn bị cho cuộc chiến dài hạn</li>
-                  <li>• Kiên trì và bền bỉ</li>
-                  <li>• Dần dần tích lũy lực lượng</li>
-                  <li>• Chờ thời cơ thuận lợi</li>
+                  <li>Chuẩn bị cho cuộc chiến dài hạn</li>
+                  <li>Kiên trì và bền bỉ</li>
+                  <li>Dần dần tích lũy lực lượng</li>
+                  <li>Chờ thời cơ thuận lợi</li>
                 </ul>
               </div>
               
