@@ -27,7 +27,7 @@ const IntroSlide: React.FC = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="mb-8"
         >
-          <h2 className="text-2xl mb-4">Sessions 13 & 14</h2>
+          <h2 className="text-2xl mb-4">Nhóm May Mắn</h2>
           <div className="text-xl text-gray-600 mb-6">
             Đại hội đại biểu lần thứ II và Chính cương của Đảng
           </div>
@@ -43,7 +43,7 @@ const IntroSlide: React.FC = () => {
           className="grid grid-cols-2 gap-8 mt-12"
         >
           <div className="card">
-            <h3 className="text-xl font-bold mb-4 text-red-600">Session 13</h3>
+            <h3 className="text-xl font-bold mb-4 text-red-600">Phần 1</h3>
             <p className="text-gray-700">
               Đại hội đại biểu lần thứ II và Chính cương của Đảng (2/1951)
             </p>
@@ -53,7 +53,7 @@ const IntroSlide: React.FC = () => {
           </div>
           
           <div className="card">
-            <h3 className="text-xl font-bold mb-4 text-red-600">Session 14</h3>
+            <h3 className="text-xl font-bold mb-4 text-red-600">Phần 2</h3>
             <p className="text-gray-700">
               Lãnh đạo xây dựng chủ nghĩa xã hội ở miền Bắc
             </p>

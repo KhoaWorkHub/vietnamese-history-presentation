@@ -23,7 +23,9 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="timeline-item">
                 <div className="date">1949</div>
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="w-8 h-6 bg-red-600 flex items-center justify-center text-yellow-400 text-xs">☭</div>
+                  <div className="w-8 h-6 flex items-center justify-center text-xs" style={{ backgroundColor: 'rgba(208, 2, 27, 1)' }}>
+                    <span style={{ color: 'rgb(248, 231, 28)' }}>☭</span>
+                  </div>
                   <p>Liên Xô chế tạo thành công bom nguyên tử</p>
                 </div>
                 <p className="text-sm">Công nghiệp tăng bình quân <strong>9.6%/năm</strong>, trở thành nước công nghiệp thứ 2 sau Mỹ</p>
@@ -32,14 +34,6 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="timeline-item">
                 <div className="date">23/12/1950</div>
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="flex gap-1">
-                    <div className="w-4 h-3 bg-blue-600"></div>
-                    <div className="w-4 h-3 bg-white"></div>
-                    <div className="w-4 h-3 bg-red-600"></div>
-                  </div>
-                  <div className="w-8 h-6 bg-blue-600 flex items-center justify-center">
-                    <div className="w-3 h-2 bg-red-600"></div>
-                  </div>
                   <p>Hiệp định Phòng thủ chung</p>
                 </div>
                 <p className="highlight">"Chiến tranh đơn phương"</p>
@@ -56,17 +50,15 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="text-center mb-4">
                 <div className="inline-flex items-center gap-2">
                   <div className="w-8 h-6 bg-red-600 flex items-center justify-center">
-                    <span className="text-yellow-400 text-sm">★</span>
+                    <span className="text-sm" style={{ color: 'rgba(248, 231, 28, 1)' }}>★</span>
                   </div>
                   <span>Việt Nam</span>
                 </div>
                 <div className="flex justify-center gap-4 mt-2">
                   <div className="text-center">
-                    <div className="w-6 h-4 bg-red-600 mx-auto mb-1"></div>
                     <span className="text-xs">Lào</span>
                   </div>
                   <div className="text-center">
-                    <div className="w-6 h-4 bg-red-600 mx-auto mb-1"></div>
                     <span className="text-xs">Campuchia</span>
                   </div>
                 </div>
@@ -75,7 +67,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="bg-yellow-50 p-3 rounded">
                 <p className="text-sm font-semibold">Thành tựu quan trọng:</p>
                 <p className="text-sm">Củng cố lực lượng cách mạng</p>
-                <p className="text-sm">Mở rộng vùng gi���i phóng</p>
+                <p className="text-sm">Mở rộng vùng giải phóng</p>
                 <p className="text-sm">Tăng cường đoàn kết quốc tế</p>
               </div>
             </motion.div>
@@ -98,17 +90,23 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               className="card"
             >
               <h3 className="text-xl font-bold mb-4 text-red-600">📊 Thông tin chung</h3>
-              <div className="bg-red-50 p-4 rounded-lg mb-4">
-                <div className="text-center border-2 border-dashed border-red-300 p-3 rounded bg-gray-100 mb-4">
-                  <div className="text-sm text-gray-600 mb-2">🏛��� Hình ảnh Đại hội</div>
-                  <div className="text-xs text-gray-500">Phiên họp trang trọng với đại biểu từ khắp nơi</div>
-                </div>
-              </div>
+              <div
+                className="bg-red-50 rounded-lg mb-4"
+                style={{
+                  backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2F3bd7a5e94da44ce1a3e298056c38254f)',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                  backgroundSize: 'cover',
+                  padding: '56px 16px'
+                }}
+              />
               
               <div className="space-y-3">
-                <div className="flex justify-between">
+                <div className="flex">
                   <span><strong>158</strong> đại biểu chính thức</span>
-                  <span><strong>53</strong> dự khuyết</span>
+                </div>
+                <div className="flex">
+                  <strong>53</strong>&nbsp;dự khuyết
                 </div>
                 <div className="highlight p-2 rounded">
                   Đại diện cho hơn <strong>766.000 đảng viên</strong>
@@ -126,7 +124,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               
               <div className="text-center mb-6">
                 <div className="w-16 h-12 bg-red-600 mx-auto mb-2 flex items-center justify-center rounded">
-                  <span className="text-yellow-400 text-xl">☭</span>
+                  <span className="text-xl" style={{ color: 'rgba(248, 231, 28, 1)' }}>☭</span>
                 </div>
                 <p className="font-bold">Đảng Cộng sản Đông Dương</p>
                 <div className="text-yellow-600 text-2xl my-2">↓</div>
@@ -136,21 +134,21 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="grid grid-cols-3 gap-2 mb-4">
                 <div className="text-center">
                   <div className="w-8 h-6 bg-red-600 mx-auto mb-1 flex items-center justify-center">
-                    <span className="text-yellow-400 text-xs">☭</span>
+                    <span className="text-xs" style={{ color: 'rgba(248, 231, 28, 1)' }}>☭</span>
                   </div>
                   <div className="date text-xs">2/1951</div>
                   <p className="text-xs">Việt Nam</p>
                 </div>
                 <div className="text-center">
                   <div className="w-8 h-6 bg-red-600 mx-auto mb-1 flex items-center justify-center">
-                    <span className="text-yellow-400 text-xs">☭</span>
+                    <span className="text-xs" style={{ color: 'rgba(248, 231, 28, 1)' }}>☭</span>
                   </div>
                   <div className="date text-xs">28/6/1951</div>
                   <p className="text-xs">Lào</p>
                 </div>
                 <div className="text-center">
                   <div className="w-8 h-6 bg-red-600 mx-auto mb-1 flex items-center justify-center">
-                    <span className="text-yellow-400 text-xs">☭</span>
+                    <span className="text-xs" style={{ color: 'rgba(248, 231, 28, 1)' }}>☭</span>
                   </div>
                   <div className="date text-xs">1951</div>
                   <p className="text-xs">Campuchia</p>
@@ -166,16 +164,34 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             className="grid grid-cols-2 gap-6 mt-6"
           >
             <div className="card text-center bg-red-50">
-              <div className="w-16 h-16 bg-gray-200 mx-auto mb-3 rounded-full border-2 border-red-300 flex items-center justify-center">
-                <span className="text-red-600 text-xs">👤</span>
-              </div>
+              <div
+                className="w-16 h-16 bg-gray-200 mx-auto mb-3 rounded-full border-2 border-red-300 flex items-center justify-center"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2F2f6c4e3717de43379c6dc2834366fe83)',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                  backgroundSize: 'cover',
+                  justifyContent: 'center'
+                }}
+              />
               <h4 className="text-lg font-bold text-red-600 mb-2">Hồ Chí Minh</h4>
               <p className="highlight">Chủ tịch Đảng</p>
             </div>
             <div className="card text-center bg-red-50">
-              <div className="w-16 h-16 bg-gray-200 mx-auto mb-3 rounded-full border-2 border-red-300 flex items-center justify-center">
-                <span className="text-red-600 text-xs">👤</span>
-              </div>
+              <div
+                className="w-16 h-16 bg-gray-200 mx-auto mb-3 rounded-full border-2 border-red-300 flex items-center justify-center"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2F351e467c57e740368da4fe21d937567f)',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                  backgroundSize: 'cover',
+                  justifyContent: 'center'
+                }}
+              />
               <h4 className="text-lg font-bold text-red-600 mb-2">Trường Chinh</h4>
               <p className="highlight">Tổng bí thư</p>
             </div>
@@ -404,17 +420,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
           >
             <h4 className="text-lg font-bold text-green-600 mb-3">🇻🇳 Quyết tâm của Việt Nam</h4>
             <p className="text-lg">Kết hợp đấu tranh quân sự và ngoại giao, kết thúc thắng lợi cuộc kháng chiến</p>
-            <div className="flex justify-center items-center mt-3 gap-3">
-              <div className="w-8 h-6 bg-red-600 flex items-center justify-center">
-                <span className="text-yellow-400 text-sm">★</span>
-              </div>
-              <span className="text-green-600 font-bold">VS</span>
-              <div className="flex gap-1">
-                <div className="w-3 h-2 bg-blue-600"></div>
-                <div className="w-3 h-2 bg-white border border-gray-300"></div>
-                <div className="w-3 h-2 bg-red-600"></div>
-              </div>
-            </div>
+
           </motion.div>
         </div>
       )
@@ -509,7 +515,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <h4 className="text-lg font-bold text-green-600 mb-3">🚀 Tiến công Đông Xuân 1953-1954</h4>
               <div className="flex justify-center items-center gap-4">
                 <div className="w-12 h-8 bg-red-600 flex items-center justify-center rounded">
-                  <span className="text-yellow-400 text-sm">☭</span>
+                  <span className="text-sm" style={{ color: 'rgba(248, 231, 28, 1)' }}>☭</span>
                 </div>
                 <div className="text-green-600 text-2xl">→</div>
                 <div className="text-blue-600 font-bold">Điện Biên Phủ</div>
@@ -536,12 +542,20 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               className="card"
             >
               <div className="text-center mb-4">
-                <div className="border-2 border-dashed border-red-300 p-4 rounded bg-red-50">
-                  <div className="text-sm text-gray-600 mb-2">📸 Chiến thắng Điện Biên Phủ</div>
-                  <div className="text-xs text-gray-500">Cờ Việt Nam tung bay trên đỉnh đồi</div>
+                <div
+                className="border-2 border-dashed border-red-300 p-4 rounded bg-red-50"
+                style={{
+                  backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2F8217bc24ba6b468b865f015849cb8282)',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                  backgroundSize: 'cover'
+                }}
+              >
+                  <div className="text-sm mb-2" style={{ color: 'rgba(0, 0, 0, 1)' }}>📸 Chiến thắng Điện Biên Phủ</div>
+                  <div className="text-xs" style={{ color: 'rgba(0, 0, 0, 1)' }}>Cờ Việt Nam tung bay trên đỉnh đồi</div>
                   <div className="mt-2">
                     <div className="w-8 h-6 bg-red-600 mx-auto flex items-center justify-center rounded">
-                      <span className="text-yellow-400 text-sm">★</span>
+                      <span className="text-sm" style={{ color: 'rgba(248, 231, 28, 1)' }}>★</span>
                     </div>
                   </div>
                 </div>
@@ -592,9 +606,17 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             
             <div className="card bg-blue-50 text-center">
               <h4 className="font-bold text-blue-600 mb-4">🏛️ Dẫn tới Hiệp định Geneve</h4>
-              <div className="border-2 border-dashed border-blue-300 p-3 rounded bg-gray-100 mb-3">
-                <div className="text-sm text-gray-600 mb-2">🏛️ Hội nghị Geneve</div>
-                <div className="text-xs text-gray-500">Các đại biểu quốc tế thảo luận</div>
+              <div
+                className="border-2 border-dashed border-blue-300 p-3 rounded bg-gray-100 mb-3"
+                style={{
+                  backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2F9e1bf85263c847c78dd67b060db74b6e)',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                  backgroundSize: 'cover'
+                }}
+              >
+                <div className="text-sm mb-2" style={{ color: 'rgba(208, 2, 27, 1)' }}>🏛️ Hội nghị Geneve</div>
+                <div className="text-xs" style={{ color: 'rgba(208, 2, 27, 1)' }}>Các đại biểu quốc tế thảo luận</div>
               </div>
               
               <div className="space-y-2">
@@ -629,13 +651,16 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
             className="card text-center mb-6 bg-blue-50"
+            style={{
+              backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2F27ef4ea68993451180439c8a742fb91c)',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
+              backgroundSize: 'cover'
+            }}
           >
             <h3 className="text-xl font-bold mb-4">🏛️ Tuyên bố chung của Hội nghị Geneve</h3>
-            <div className="border-2 border-dashed border-blue-300 p-4 rounded bg-gray-100 mb-4">
-              <div className="text-sm text-gray-600 mb-2">📸 Hội nghị Geneve 1954</div>
-              <div className="text-xs text-gray-500">Các đại biểu quốc tế họp bàn về hòa bình Đông Dương</div>
-            </div>
-            <p className="highlight text-lg">Kết thúc chiến tranh Đông Dương</p>
+
+            <p className="highlight text-lg" style={{ color: 'rgba(208, 2, 27, 1)' }}>Kết thúc chiến tranh Đông Dương</p>
           </motion.div>
           
           <div className="grid grid-cols-2 gap-6">
@@ -673,7 +698,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
                   <div className="flex items-center gap-2 mb-2">
                     <div className="flex gap-1">
                       <div className="w-6 h-4 bg-red-600 flex items-center justify-center">
-                        <span className="text-yellow-400 text-xs">★</span>
+                        <span className="text-xs" style={{ color: 'rgba(248, 231, 28, 1)' }}>★</span>
                       </div>
                       <div className="w-6 h-4 bg-red-600"></div>
                       <div className="w-6 h-4 bg-blue-600"></div>
@@ -715,7 +740,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="text-green-600 text-2xl">→</div>
               <span className="text-green-600 font-bold">Hòa bình</span>
             </div>
-            <p className="text-lg">Chấm dứt th���ng lợi cuộc kháng chiến chống thực dân Pháp</p>
+            <p className="text-lg">Chấm dứt thắng lợi cuộc kháng chiến chống thực dân Pháp</p>
             <p className="highlight mt-2">Mở ra giai đoạn mới trong lịch sử dân tộc Việt Nam</p>
           </motion.div>
         </div>
