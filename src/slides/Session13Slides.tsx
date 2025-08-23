@@ -100,7 +100,6 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
                   padding: '56px 16px'
                 }}
               />
-              
               <div className="space-y-3">
                 <div className="flex">
                   <span><strong>158</strong> đại biểu chính thức</span>
@@ -740,7 +739,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="text-green-600 text-2xl">→</div>
               <span className="text-green-600 font-bold">Hòa bình</span>
             </div>
-            <p className="text-lg">Chấm dứt thắng lợi cuộc kháng chiến chống thực dân Pháp</p>
+            <p className="text-lg">Chấm dứt th���ng lợi cuộc kháng chiến chống thực dân Pháp</p>
             <p className="highlight mt-2">Mở ra giai đoạn mới trong lịch sử dân tộc Việt Nam</p>
           </motion.div>
         </div>
