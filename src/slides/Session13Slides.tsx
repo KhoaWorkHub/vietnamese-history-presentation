@@ -335,12 +335,12 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               className="card"
             >
               <div className="text-center mb-4">
-                <div className="w-24 h-32 bg-gray-200 mx-auto mb-3 rounded border-2 border-gray-300 flex flex-col items-center justify-center">
-                  <div className="w-16 h-16 bg-gray-300 rounded-full mb-2 flex items-center justify-center">
-                    <span className="text-gray-600 text-xl">👤</span>
-                  </div>
-                  <div className="text-xs text-gray-600">Tướng</div>
-                </div>
+              <img
+  src="/henri_navvare.png"
+  alt="Henri Navarre"
+  className="w-24 h-32 bg-gray-200 mx-auto mb-3 rounded border-2 border-gray-300 object-cover"
+/>
+
                 <h3 className="text-xl font-bold text-red-600">Henri Navarre</h3>
                 <div className="date">5/1953</div>
               </div>
@@ -368,14 +368,12 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             >
               <h3 className="text-xl font-bold text-red-600 mb-4">📍 Chiến lược Điện Biên Phủ</h3>
               
-              <div className="border-2 border-dashed border-gray-300 p-4 rounded bg-gray-50 mb-4 text-center">
-                <div className="text-sm text-gray-600 mb-2">🗺️ Bản đồ vị trí Điện Biên Phủ</div>
-                <div className="text-xs text-gray-500">Vị trí chiến lược ở Tây Bắc Việt Nam</div>
-                <div className="mt-2">
-                  <span className="inline-block w-4 h-4 bg-red-600 mr-2"></span>
-                  <span className="text-xs">Điện Biên Phủ</span>
-                </div>
-              </div>
+              <img
+  src="/map.png"
+  alt="Bản đồ vị trí Điện Biên Phủ"
+  className="border-2 border-dashed border-gray-300 p-4 rounded bg-gray-50 mb-4 mx-auto"
+/>
+
               
               <div className="space-y-3">
                 <div className="bg-yellow-50 p-3 rounded">
@@ -431,13 +429,16 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <h3 className="text-xl font-bold text-red-600 mb-4">👥 Bộ chỉ huy Chiến dịch</h3>
               
               <div className="bg-red-50 p-4 rounded-lg mb-4">
-                <div className="text-center border-2 border-dashed border-red-300 p-3 rounded bg-gray-100 mb-3">
-                  <div className="w-16 h-20 bg-gray-200 mx-auto mb-2 rounded flex items-center justify-center">
-                    <span className="text-gray-600">🎖️</span>
-                  </div>
-                  <div className="text-sm text-gray-600">Bộ chỉ huy lập kế hoạch</div>
-                </div>
-              </div>
+  <div className="text-center border-2 border-dashed border-red-300 p-3 rounded bg-gray-100 mb-3">
+    <img
+      src="/giap.png"
+      alt="Bộ chỉ huy lập kế hoạch"
+      className="w-16 h-20 mx-auto mb-2 rounded object-cover"
+    />
+    
+  </div>
+</div>
+
               
               <div className="text-center">
                 <h4 className="text-lg font-bold text-red-600 mb-2">Đại tướng Võ Nguyên Giáp</h4>
@@ -459,14 +460,13 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <h3 className="text-xl font-bold text-red-600 mb-4">🗺️ Chiến thuật và mục tiêu</h3>
               
               <div className="border-2 border-dashed border-green-300 p-4 rounded bg-green-50 mb-4 text-center">
-                <div className="text-sm text-gray-600 mb-2">📊 Sơ đồ chiến thuật Điện Biên Phủ</div>
-                <div className="text-xs text-gray-500">Bao vây và tiến công từ các hướng</div>
-                <div className="mt-2 flex justify-center gap-2">
-                  <span className="inline-block w-3 h-3 bg-red-600 rounded-full"></span>
-                  <span className="inline-block w-3 h-3 bg-red-600 rounded-full"></span>
-                  <span className="inline-block w-3 h-3 bg-red-600 rounded-full"></span>
-                </div>
-              </div>
+  <img
+    src="/map.png"
+    alt="Sơ đồ chiến thuật Điện Biên Phủ"
+    className="mx-auto rounded object-contain max-h-60"
+  />
+</div>
+
               
               <div className="space-y-3">
                 <div className="bg-red-100 p-3 rounded">
