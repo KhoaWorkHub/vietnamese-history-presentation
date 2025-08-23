@@ -32,9 +32,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-4">Giai đoạn 1 (1945-1954)</h4>
               <ul className="space-y-2">
-                <li>• Xây dựng và bảo vệ chính quyền cách mạng (1945-1946)</li>
-                <li>• Đường lối kháng chiến toàn quốc (1946-1950)</li>
-                <li>• Đẩy mạnh cuộc kháng chiến đến thắng lợi (1951-1954)</li>
+                <li>Xây dựng và bảo vệ chính quyền cách mạng (1945-1946)</li>
+                <li>Đường lối kháng chiến toàn quốc (1946-1950)</li>
+                <li>Đẩy mạnh cuộc kháng chiến đến thắng lợi (1951-1954)</li>
               </ul>
             </motion.div>
             
@@ -46,9 +46,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-4">Giai đoạn 2 (1954-1975)</h4>
               <ul className="space-y-2">
-                <li>• Lãnh đạo cách mạng hai miền Nam-Bắc (1954-1965)</li>
-                <li>• Lãnh đạo cách mạng cả nước (1965-1975)</li>
-                <li>• Xây dựng CNXH ở miền Bắc, giải phóng miền Nam</li>
+                <li>Lãnh đạo cách mạng hai miền Nam-Bắc (1954-1965)</li>
+                <li>Lãnh đạo cách mạng cả nước (1965-1975)</li>
+                <li>Xây dựng CNXH ở miền Bắc, giải phóng miền Nam</li>
               </ul>
             </motion.div>
           </div>
@@ -91,9 +91,9 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
               <div className="card">
                 <h4 className="font-bold text-red-600 mb-2">Đối với Việt Nam</h4>
                 <ul className="space-y-2">
-                  <li>• Bảo vệ thành quả của Cách mạng tháng Tám</li>
-                  <li>• Củng cố, phát triển chế độ mới trên mọi lĩnh vực</li>
-                  <li>• Mang đến niềm tin tất thắng của kháng chiến</li>
+                  <li>Bảo vệ thành quả của Cách mạng tháng Tám</li>
+                  <li>Củng cố, phát triển chế độ mới trên mọi lĩnh vực</li>
+                  <li>Mang đến niềm tin tất thắng của kháng chiến</li>
                 </ul>
               </div>
               
@@ -112,17 +112,17 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
               <div className="card">
                 <h4 className="font-bold text-red-600 mb-2">Tầm vóc quốc tế</h4>
                 <ul className="space-y-2">
-                  <li>• Có tính lan tỏa trong khu vực</li>
-                  <li>• Mang tầm vóc thời đại sâu sắc</li>
-                  <li>• Chứng tỏ sức mạnh của tinh thần độc lập dân tộc</li>
+                  <li>Có tính lan tỏa trong khu vực</li>
+                  <li>Mang tầm vóc thời đại sâu sắc</li>
+                  <li>Chứng tỏ sức mạnh của tinh thần độc lập dân tộc</li>
                 </ul>
               </div>
               
               <div className="card">
                 <h4 className="font-bold text-red-600 mb-2">Ảnh hưởng toàn cầu</h4>
                 <ul className="space-y-2">
-                  <li>• Cổ vũ phong trào đấu tranh vì hòa bình, dân chủ và tiến bộ</li>
-                  <li>• Đặt nền móng cho sự tan rã hệ thống thuộc địa trên thế giới</li>
+                  <li>Cổ vũ phong trào đấu tranh vì hòa bình, dân chủ và tiến bộ</li>
+                  <li>Đặt nền móng cho sự tan rã hệ thống thuộc địa trên thế giới</li>
                 </ul>
               </div>
             </motion.div>
@@ -220,10 +220,10 @@ const Session14Slides: React.FC<Session14SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-4">Tầm vóc thời đại</h4>
               <ul className="space-y-3">
-                <li>• <span className="highlight">Có tính lan tỏa trong khu vực</span></li>
-                <li>• <span className="highlight">Mang tầm vóc thời đại sâu sắc</span></li>
-                <li>• Cổ vũ phong trào đấu tranh vì hòa bình, dân chủ và tiến bộ</li>
-                <li>• Đặt nền móng cho sự tan rã hệ thống thuộc địa trên thế giới</li>
+                <li><span className="highlight">Có tính lan tỏa trong khu vực</span></li>
+                <li><span className="highlight">Mang tầm vóc thời đại sâu sắc</span></li>
+                <li>Cổ vũ phong trào đấu tranh vì hòa bình, dân chủ và tiến bộ</li>
+                <li>Đặt nền móng cho sự tan rã hệ thống thuộc địa trên thế giới</li>
               </ul>
             </motion.div>
             

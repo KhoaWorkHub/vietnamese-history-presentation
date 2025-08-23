@@ -92,7 +92,7 @@ const App: React.FC = () => {
 
       {/* Progress bar */}
       <div className="progress-bar">
-        <motion.div 
+        <motion.div
           className="progress-fill"
           initial={{ width: 0 }}
           animate={{ width: `${((currentSlide + 1) / slides.length) * 100}%` }}
