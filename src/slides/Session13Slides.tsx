@@ -74,9 +74,9 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <p className="text-center mb-3">Phát triển theo chiều hướng tích cực</p>
               <div className="bg-yellow-50 p-3 rounded">
                 <p className="text-sm font-semibold">Thành tựu quan trọng:</p>
-                <p className="text-sm">• Củng cố lực lượng cách mạng</p>
-                <p className="text-sm">• Mở rộng vùng giải phóng</p>
-                <p className="text-sm">• Tăng cường đoàn kết quốc tế</p>
+                <p className="text-sm">Củng cố lực lượng cách mạng</p>
+                <p className="text-sm">Mở rộng vùng gi���i phóng</p>
+                <p className="text-sm">Tăng cường đoàn kết quốc tế</p>
               </div>
             </motion.div>
           </div>
@@ -100,7 +100,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <h3 className="text-xl font-bold mb-4 text-red-600">📊 Thông tin chung</h3>
               <div className="bg-red-50 p-4 rounded-lg mb-4">
                 <div className="text-center border-2 border-dashed border-red-300 p-3 rounded bg-gray-100 mb-4">
-                  <div className="text-sm text-gray-600 mb-2">🏛️ Hình ảnh Đại hội</div>
+                  <div className="text-sm text-gray-600 mb-2">🏛��� Hình ảnh Đại hội</div>
                   <div className="text-xs text-gray-500">Phiên họp trang trọng với đại biểu từ khắp nơi</div>
                 </div>
               </div>
@@ -208,9 +208,9 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="text-lg font-bold mb-4">Mục tiêu trước mắt</h4>
               <ul className="space-y-2">
-                <li>• Tiêu diệt thực dân Pháp</li>
-                <li>• Chống can thiệp Mỹ</li>
-                <li>• Giành độc lập hoàn toàn</li>
+                <li>Tiêu diệt thực dân Pháp</li>
+                <li>Chống can thiệp Mỹ</li>
+                <li>Giành độc lập hoàn toàn</li>
               </ul>
             </motion.div>
             
@@ -236,15 +236,15 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div>
                 <h5 className="font-bold text-red-600">Xác định:</h5>
                 <ul>
-                  <li>• Tính chất xã hội Việt Nam</li>
-                  <li>• Nhiệm vụ cách mạng</li>
+                  <li>Tính chất xã hội Việt Nam</li>
+                  <li>Nhiệm vụ cách mạng</li>
                 </ul>
               </div>
               <div>
                 <h5 className="font-bold text-red-600">Triển vọng:</h5>
                 <ul>
-                  <li>• Động lực của cách mạng</li>
-                  <li>• Phát triển và Điều lệ Đảng mới</li>
+                  <li>Động lực của cách mạng</li>
+                  <li>Phát triển và Điều lệ Đảng mới</li>
                 </ul>
               </div>
             </div>
@@ -275,9 +275,9 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               </div>
               <h4 className="font-bold text-red-600 mb-2">Đối tượng đấu tranh chính:</h4>
               <ul className="space-y-1">
-                <li>• CNĐQ xâm lược Pháp</li>
-                <li>• Can thiệp Mỹ</li>
-                <li>• Phong kiến phản động</li>
+                <li>CNĐQ xâm lược Pháp</li>
+                <li>Can thiệp Mỹ</li>
+                <li>Phong kiến phản động</li>
               </ul>
             </motion.div>
             
@@ -336,10 +336,12 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             >
               <div className="text-center mb-4">
                 <div className="w-24 h-32 bg-gray-200 mx-auto mb-3 rounded border-2 border-gray-300 flex flex-col items-center justify-center">
-                  <div className="w-16 h-16 bg-gray-300 rounded-full mb-2 flex items-center justify-center">
-                    <span className="text-gray-600 text-xl">👤</span>
-                  </div>
-                  <div className="text-xs text-gray-600">Tướng</div>
+                  <div className="w-16 h-16 bg-gray-300 rounded-full mb-2" />
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2Fec550043ff2b4f3e9abdbfabee5de5f5?format=webp&width=800"
+                    alt="Henri Navarre"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-red-600">Henri Navarre</h3>
                 <div className="date">5/1953</div>
@@ -348,8 +350,8 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="space-y-3">
                 <div className="bg-blue-50 p-3 rounded">
                   <h4 className="font-bold text-blue-600 mb-1">Chức vụ</h4>
-                  <p className="text-sm">• Tổng chỉ huy quân đội viễn chinh Pháp ở Đông Dương</p>
-                  <p className="text-sm">• Tổng tham mưu trưởng lục quân NATO</p>
+                  <p className="text-sm">Tổng chỉ huy quân đội viễn chinh Pháp ở Đông Dương</p>
+                  <p className="text-sm">Tổng tham mưu trưởng lục quân NATO</p>
                 </div>
                 
                 <div className="bg-red-50 p-3 rounded text-center">
@@ -430,13 +432,19 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             >
               <h3 className="text-xl font-bold text-red-600 mb-4">👥 Bộ chỉ huy Chiến dịch</h3>
               
-              <div className="bg-red-50 p-4 rounded-lg mb-4">
-                <div className="text-center border-2 border-dashed border-red-300 p-3 rounded bg-gray-100 mb-3">
-                  <div className="w-16 h-20 bg-gray-200 mx-auto mb-2 rounded flex items-center justify-center">
-                    <span className="text-gray-600">🎖️</span>
-                  </div>
-                  <div className="text-sm text-gray-600">Bộ chỉ huy lập kế hoạch</div>
+              <div className="bg-red-50 py-5 px-4 rounded-lg mb-4 flex flex-col">
+                <div
+                  className="text-center border-2 border-dashed border-red-300 rounded"
+                  style={{
+                    backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F8417916649f84877bea63b4db695a76b%2Ff642a945ca0a44a881d5b69d05a9e31b?format=webp&width=800)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    padding: '48px 8px'
+                  }}
+                >
                 </div>
+                <div className="text-sm font-semibold mx-auto">Bộ chỉ huy lập kế hoạch</div>
               </div>
               
               <div className="text-center">
@@ -472,16 +480,16 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
                 <div className="bg-red-100 p-3 rounded">
                   <h4 className="font-bold text-red-700 mb-1">🎯 Mục tiêu chính</h4>
                   <ul className="text-sm space-y-1">
-                    <li>• <span className="highlight">Tiêu diệt sinh lực địch</span></li>
-                    <li>• <span className="highlight">Bồi dưỡng lực lượng ta</span></li>
+                    <li><span className="highlight">Tiêu diệt sinh lực địch</span></li>
+                    <li><span className="highlight">Bồi dưỡng lực lượng ta</span></li>
                   </ul>
                 </div>
                 
                 <div className="bg-yellow-100 p-3 rounded">
                   <h4 className="font-bold text-yellow-700 mb-1">⚡ Chiến thuật</h4>
                   <ul className="text-sm space-y-1">
-                    <li>• Giữ vững thế chủ động</li>
-                    <li>• Buộc địch phải phân tán lực lượng</li>
+                    <li>Giữ vững thế chủ động</li>
+                    <li>Buộc địch phải phân tán lực lượng</li>
                   </ul>
                 </div>
               </div>
@@ -550,9 +558,9 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             >
               <h4 className="font-bold text-red-600 mb-4">⚔️ Ý nghĩa quân sự</h4>
               <ul className="space-y-2">
-                <li>• Tiêu diệt toàn bộ Tập đoàn cứ điểm Điện Biên Phủ</li>
-                <li>• Bắt sống Tướng De Castries</li>
-                <li>• Chấm dứt ý chí xâm lược của Pháp</li>
+                <li>Tiêu diệt toàn bộ Tập đoàn cứ điểm Điện Biên Phủ</li>
+                <li>Bắt sống Tướng De Castries</li>
+                <li>Chấm dứt ý chí xâm lược của Pháp</li>
               </ul>
               <div className="mt-4 p-3 bg-yellow-50 rounded border-l-4 border-yellow-400">
                 <p className="italic text-sm">"Hân hạnh được làm kẻ chiến bại của Tướng Giáp"</p>
@@ -570,9 +578,9 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
             <div className="card bg-green-50">
               <h4 className="font-bold text-green-600 mb-4">🌟 Ý nghĩa lịch sử</h4>
               <ul className="space-y-2 text-sm">
-                <li>• Thắng lợi của chiến tranh nhân dân</li>
-                <li>• Chứng minh sức mạnh tinh thần độc lập dân tộc</li>
-                <li>• Tạo tiền đề cho Hiệp định Geneve</li>
+                <li>Thắng lợi của chiến tranh nhân dân</li>
+                <li>Chứng minh sức mạnh tinh thần độc lập dân tộc</li>
+                <li>Tạo tiền đề cho Hiệp định Geneve</li>
               </ul>
               <div className="mt-4 p-3 bg-white rounded border-l-4 border-green-400">
                 <p className="italic text-sm">"Người ta có thể đánh bại một quân đội, chứ không thể đánh bại được một dân tộc"</p>
@@ -641,11 +649,11 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
                 </div>
                 
                 <div className="bg-blue-100 p-3 rounded border-l-4 border-blue-500">
-                  <p className="text-sm">• Tôn trọng quyền dân tộc cơ bản của ba nước Đông Dương</p>
+                  <p className="text-sm">Tôn trọng quyền dân tộc cơ bản của ba nước Đông Dương</p>
                 </div>
                 
                 <div className="bg-yellow-100 p-3 rounded border-l-4 border-yellow-500">
-                  <p className="text-sm">• Không can thiệp vào công việc nội bộ của ba nước Đông Dương</p>
+                  <p className="text-sm">Không can thiệp vào công việc nội bộ của ba nước Đông Dương</p>
                 </div>
               </div>
             </motion.div>
@@ -704,7 +712,7 @@ const Session13Slides: React.FC<Session13SlidesProps> = ({ slideIndex }) => {
               <div className="text-green-600 text-2xl">→</div>
               <span className="text-green-600 font-bold">Hòa bình</span>
             </div>
-            <p className="text-lg">Chấm dứt thắng lợi cuộc kháng chiến chống thực dân Pháp</p>
+            <p className="text-lg">Chấm dứt th���ng lợi cuộc kháng chiến chống thực dân Pháp</p>
             <p className="highlight mt-2">Mở ra giai đoạn mới trong lịch sử dân tộc Việt Nam</p>
           </motion.div>
         </div>
